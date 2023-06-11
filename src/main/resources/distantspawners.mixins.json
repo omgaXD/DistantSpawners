@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "priority": 1100,
+  "package": "com.omga.distantspawners.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "distantspawners.refmap.json",
+  "mixins": [
+    "BaseSpawnerPatchMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
